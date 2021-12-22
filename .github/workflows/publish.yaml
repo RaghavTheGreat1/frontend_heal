@@ -2,7 +2,7 @@ name: frontend_mental_health
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
