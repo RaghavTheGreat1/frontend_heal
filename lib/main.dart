@@ -87,6 +87,7 @@ class HomeBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     Size screenSize = MediaQuery.of(context).size;
     return SingleChildScrollView(
+      physics: const BouncingScrollPhysics(),
       child: Stack(
         children: [
           Align(
