@@ -2,7 +2,8 @@ name: frontend_mental_health
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build:
@@ -17,4 +18,4 @@ jobs:
       # - run: flutter test
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
-          baseHref: /frontend_mental_health/web/
+          baseHref: /frontend_mental_health/build/web/
