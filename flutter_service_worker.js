@@ -3,48 +3,53 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "fabc136f394c9bdbd9b80666ab853e93",
-"assets/designs/chart.png": "d6f38d6fea300e068f23ca21ac11a747",
-"assets/designs/doctor.png": "dc8b1a8842da5fe28a2252c1ca29dced",
-"assets/designs/girl.png": "70dc9bb1cff076e81a41944ee373c760",
-"assets/designs/happy_girl.png": "7bd4ddf5167c3f70519a4bbb231686fd",
-"assets/designs/heart.png": "85400df889585989c0180422ffbd9b25",
-"assets/designs/logo.png": "b98525de67770f6c7833bb789ec5c421",
-"assets/designs/menloo.fig": "f8c817f47c4905ef98e1e47fc3ab226f",
-"assets/designs/water.png": "6e42f081ce2ba122ca1eb6ba30f7404f",
-"assets/designs/yoga.png": "6face724febcc0128db01f134b6ee562",
-"assets/FontManifest.json": "b146974b0bd32f5006146947dd3c3935",
-"assets/fonts/DM_Sans/DMSans-Bold.ttf": "071853031a2175ada019db9e6fd1585c",
-"assets/fonts/DM_Sans/DMSans-BoldItalic.ttf": "a300c77208334f8ad8b2fc95ee2040ce",
-"assets/fonts/DM_Sans/DMSans-Italic.ttf": "b89267290c0df2e03ae1b60bd14109c8",
-"assets/fonts/DM_Sans/DMSans-Medium.ttf": "fbbc5a515be4021a9a36f048e25ad396",
-"assets/fonts/DM_Sans/DMSans-MediumItalic.ttf": "a2a143d61d86a67e5e77cf43fd0a4e59",
-"assets/fonts/DM_Sans/DMSans-Regular.ttf": "3e7f038b85daa739336e4a3476c687f2",
-"assets/fonts/DM_Sans/OFL.txt": "c30f8805f50b17431a186dbd53288324",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "54ebcf345333df240a996b472723daa0",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/unicons/icons/UniconsLine.ttf": "897b30998fda10237ba083acb529d291",
-"assets/packages/unicons/icons/UniconsSolid.ttf": "630f8bd494e53400fa9cda3a4eb8ec10",
+  "version.json": "5433d8a9709c3dd7e493de64ed1a96f9",
+"index.html": "6c45bbc798b349c529c975c27a76b192",
+"/": "6c45bbc798b349c529c975c27a76b192",
+"main.dart.js": "a4f022f8a02a83347526f40dd80ec532",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "c60d5ac9b1dc6de5c1593dc3b2be0b57",
-"/": "c60d5ac9b1dc6de5c1593dc3b2be0b57",
-"main.dart.js": "5ddae3cfb9c4c1a955fd8981fcf6810c",
-"manifest.json": "3156bcf0181e028b67fc55b84970787d",
-"version.json": "5433d8a9709c3dd7e493de64ed1a96f9"
+"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"manifest.json": "28f0711e113a3ad4f45418112f2ca9f7",
+"assets/designs/doctor.png": "dc8b1a8842da5fe28a2252c1ca29dced",
+"assets/designs/girl.png": "70dc9bb1cff076e81a41944ee373c760",
+"assets/designs/chart.png": "d6f38d6fea300e068f23ca21ac11a747",
+"assets/designs/heart.png": "85400df889585989c0180422ffbd9b25",
+"assets/designs/logo.png": "b98525de67770f6c7833bb789ec5c421",
+"assets/designs/water.png": "6e42f081ce2ba122ca1eb6ba30f7404f",
+"assets/designs/happy_girl.png": "7bd4ddf5167c3f70519a4bbb231686fd",
+"assets/designs/yoga.png": "6face724febcc0128db01f134b6ee562",
+"assets/designs/menloo.fig": "f8c817f47c4905ef98e1e47fc3ab226f",
+"assets/AssetManifest.json": "596e4dba33ed98b5fc01eb0e4d589ec9",
+"assets/NOTICES": "db5e9e5f5a03257dabf2b75a4bda605e",
+"assets/FontManifest.json": "08c2a268a8ca1751181968354ad85639",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/unicons/icons/UniconsLine.ttf": "b6a7ecc47d2853caf153cc1aa5cf93ec",
+"assets/packages/unicons/icons/UniconsSolid.ttf": "630f8bd494e53400fa9cda3a4eb8ec10",
+"assets/packages/unicons/icons/UniconsThinline.ttf": "fe40541d1f998ea2122a68d072f8e254",
+"assets/shaders/ink_sparkle.frag": "29ed04447b5f4c5e2815e4ac7b543bdb",
+"assets/fonts/DM_Sans/DMSans-Regular.ttf": "3e7f038b85daa739336e4a3476c687f2",
+"assets/fonts/DM_Sans/DMSans-Medium.ttf": "fbbc5a515be4021a9a36f048e25ad396",
+"assets/fonts/DM_Sans/DMSans-Bold.ttf": "071853031a2175ada019db9e6fd1585c",
+"assets/fonts/DM_Sans/DMSans-BoldItalic.ttf": "a300c77208334f8ad8b2fc95ee2040ce",
+"assets/fonts/DM_Sans/OFL.txt": "de0ee3f01fd268b3eb79373f0d60d012",
+"assets/fonts/DM_Sans/DMSans-MediumItalic.ttf": "a2a143d61d86a67e5e77cf43fd0a4e59",
+"assets/fonts/DM_Sans/DMSans-Italic.ttf": "b89267290c0df2e03ae1b60bd14109c8",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -143,9 +148,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
